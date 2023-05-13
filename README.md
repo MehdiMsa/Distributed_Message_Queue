@@ -23,9 +23,10 @@ The following steps guide you through setting up the environment:
 Follow these steps to execute the project:
 
 1. Verify that all services (Kafka, Zookeeper, HAProxy, Prometheus, and Grafana) are running using `docker ps`.
-2. Run the producer Python scripts: `python producer.py <id>`.
-3. Run the consumer Python scripts: `python consumer.py <id>`.
-4. Access the Grafana dashboard at `http://localhost:3000` to visualize the metrics.
+2. Run the command through powershell: `.\start_instances.bat `
+3. Alternatively, you can run the producer Python scripts seperately: `python producer.py <id>`.
+4. Alternatively, you can run the consumer Python scripts seperately: `python consumer.py <id>`.
+5. Access the Grafana dashboard at `http://localhost:3000` to visualize the metrics.
 
 ## Contributors
 
