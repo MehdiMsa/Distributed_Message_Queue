@@ -14,8 +14,8 @@ This project is a practical implementation of a distributed message queue using 
 The following steps guide you through setting up the environment:
 
 1. Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/).
-2. Clone this repository: `git clone <repository-url>`.
-3. Navigate to the project directory: `cd <repository-dir>`.
+2. Clone this repository: `git clone https://github.com/MehdiMsa/Distributed_Message_Queue`.
+3. Navigate to the project directory: `cd ProjectCS404`.
 4. Run `docker-compose up -d` to start up the Docker containers.
 
 ## Executing the Project
