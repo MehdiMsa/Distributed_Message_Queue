@@ -1,6 +1,6 @@
-# Distributed Message Queue with Kafka, HAProxy, Prometheus, and Grafana
+# MESALIN Distributed Message Queue with Kafka, HAProxy, Prometheus, and Grafana
 
-This project is a practical implementation of a distributed message queue using Apache Kafka, with load balancing provided by HAProxy, and monitoring and visualization set up with Prometheus and Grafana. 
+Project MESALIN is a practical implementation of a distributed message queue using Apache Kafka, with load balancing provided by HAProxy, and monitoring and visualization set up with Prometheus and Grafana. 
 
 ## Tools Used
 
