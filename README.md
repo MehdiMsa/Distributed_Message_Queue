@@ -2,6 +2,8 @@
 
 Project MESALIN is a practical implementation of a distributed message queue using Apache Kafka, with load balancing provided by HAProxy, and monitoring and visualization set up with Prometheus and Grafana. 
 
+![Message Queue System](https://github.com/MehdiMsa/Distributed_Message_Queue/assets/69842873/42eab942-5164-4853-b463-0f001be04ae5)
+
 ## Tools Used
 
 * [Apache Kafka](https://kafka.apache.org/documentation/) - Distributed Streaming Platform
