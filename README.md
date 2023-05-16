@@ -2,6 +2,8 @@
 
 Project MESALIN is a practical implementation of a distributed message queue using Apache Kafka, with load balancing provided by HAProxy, and monitoring and visualization set up with Prometheus and Grafana. 
 
+![Message Queue System](https://github.com/MehdiMsa/Distributed_Message_Queue/assets/69842873/42eab942-5164-4853-b463-0f001be04ae5)
+
 ## Tools Used
 
 * [Apache Kafka](https://kafka.apache.org/documentation/) - Distributed Streaming Platform
@@ -15,7 +17,7 @@ The following steps guide you through setting up the environment:
 
 1. Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/).
 2. Clone this repository: `git clone https://github.com/MehdiMsa/Distributed_Message_Queue`.
-3. Navigate to the project directory: `cd ProjectCS404`.
+3. Navigate to the project directory: `cd Distributed_Message_Queue`.
 4. Run `docker-compose up -d` to start up the Docker containers.
 
 ## Executing the Project
