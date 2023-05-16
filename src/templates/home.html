@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kafka Dashboard</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <h1>Kafka Dashboard</h1>
+
+    <form action="/send" method="post">
+        <input type="text" name="message" required>
+        <input type="submit" value="Send Message">
+    </form>
+
+    <h2>Received Messages</h2>
+    <div id="messages"></div>
+
+    <script>
+        function fetchMessage() {
+            $.getJSON('/receive', function(data) {
+                if (data.message) {
+                    $('#messages').prepend('<p>' + data.message + '</p>');
+                }
+            });
+        }
+
+        setInterval(fetchMessage, 1000);
+    </script>
+</body>
+</html>
